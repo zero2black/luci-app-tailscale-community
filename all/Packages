@@ -1,0 +1,31 @@
+Package: luci-app-tailscale-community
+Version: 2.3.3-r1
+Depends: libc, tailscale, ip, luci-base
+Source: feeds/base/luci-app-tailscale-community
+SourceName: luci-app-tailscale-community
+Section: luci
+SourceDateEpoch: 1758316778
+URL: https://github.com/tokisaki-galaxy/luci-app-tailscale-community
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Description:  LuCI support for Tailscale
+Filename: luci-app-tailscale-community_2.3.3-r1_all.ipk
+Size: 10826
+SHA256sum: 35fff69610cdc4867cbaa4327d49d4621be7c5ae1f73d86935f33209f13ef548
+
+Package: luci-i18n-tailscale-community-zh-cn
+Version: 0.260111.12981
+Depends: libc, luci-app-tailscale-community
+Source: feeds/base/luci-app-tailscale-community
+SourceName: luci-app-tailscale-community
+Section: luci
+SourceDateEpoch: 1758316778
+Maintainer: Tokisaki-Galaxy <moebest@outlook.jp>
+Architecture: all
+Installed-Size: 20480
+Description:  Translation for luci-app-tailscale-community - 简体中文 (Chinese Simplified)
+Filename: luci-i18n-tailscale-community-zh-cn_0.260111.12981_all.ipk
+Size: 4053
+SHA256sum: 0d15a5e65dd56a591edab4b1bc9093679bda8f80f41fd588f0b8fa6300dcca04
+
