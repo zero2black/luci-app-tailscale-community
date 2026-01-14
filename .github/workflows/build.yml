@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  OPENWRT_VERSION: v24.10.3
+  OPENWRT_VERSION: v25.12.0-rc2
   PACKAGE_NAME: luci-app-tailscale-community
   SDK_DIR: /home/runner/work/openwrt-sdk
 
